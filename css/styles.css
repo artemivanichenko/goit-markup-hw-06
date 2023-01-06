@@ -685,6 +685,11 @@ ul {
 .footer__socials--indent {
   margin-top: 20px;
 }
+.footer__socials--styles {
+  background-color: var(--socials-bg);
+  border-radius: 50%;
+  fill: var(--primary-white-color);
+}
 
 .subscription__footer {
   margin-left: 105px;
