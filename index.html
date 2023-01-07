@@ -2,6 +2,7 @@
 <html lang="Uk">
   <head>
     <title>WebStudio</title>
+
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
@@ -14,40 +15,49 @@
     />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
-
-  <body class="page">
+  <body>
     <header class="header">
       <div class="header-container container">
         <a href="/" class="logo"
           ><span class="logo-blue">Web</span
           ><span class="logo-black">Studio</span></a
         >
-        <nav class="header-nav">
-          <ul class="header-nav-position">
+        <nav class="header__nav">
+          <ul class="header-button">
             <li class="item">
-              <a href="./index.html" class="header-btn color-action">Студія</a>
+              <a href="./index.html" class="header-button__styles color-action">Студія</a>
             </li>
             <li class="item">
-              <a href="./portfolio.html" class="header-btn">Портфоліо</a>
+              <a
+                href="./portfolio.html"
+                class="header-button__styles"
+                >Портфоліо</a
+              >
             </li>
             <li class="item">
-              <a href="" class="header-btn">Контакти</a>
+              <a href="" class="header-button__styles">Контакти</a>
             </li>
           </ul>
         </nav>
-        <div class="header-contact">
+        <div class="contact-info">
           <ul>
-            <li class="contact-list">
-              <a href="mailto:info@devstudio.com" class="header-grey">
-                <svg class="contact-icon" width="16" height="12">
+            <li class="contact-info__styles">
+              <a
+                href="mailto:info@devstudio.com"
+                class="contact-info__styles--second-color"
+              >
+                <svg class="contact-info__icon" width="16" height="12">
                   <use href="./images/symbol-defs.svg#icon-email"></use>
                 </svg>
                 <span>info@devstudio.com</span></a
               >
             </li>
-            <li class="contact-list">
-              <a href="tel:+380961111111" class="header-grey">
-                <svg class="contact-icon" width="10" height="16">
+            <li class="contact-info__styles">
+              <a
+                href="tel:+380961111111"
+                class="contact-info__styles--second-color"
+              >
+                <svg class="contact-info__icon" width="10" height="16">
                   <use href="./images/symbol-defs.svg#icon-smartphone"></use>
                 </svg>
                 <span>+38 096 111 11 11</span></a
@@ -55,7 +65,6 @@
             </li>
           </ul>
         </div>
-      </div>
     </header>
     <main>
       <section class="main-bg indent">
@@ -152,28 +161,28 @@
               <h3 class="team__name">Ігор Дем'яненко</h3>
               <p class="team__vocation">Product Designer</p>
               <ul class="socials">
-                <li class="team__link--indent socials__list">
+                <li class="team__link-indent  socials__list">
                   <a href="" class="socials__link">
                     <svg width="20" height="20">
                       <use href="./images/symbol-defs.svg#icon-instagram"></use>
                     </svg>
                   </a>
                 </li>
-                <li class="team__link--indent socials__list">
+                <li class="team__link-indent  socials__list">
                   <a href="" class="socials__link">
                     <svg width="20" height="20">
                       <use href="./images/symbol-defs.svg#icon-twitter"></use>
                     </svg>
                   </a>
                 </li>
-                <li class="team__link--indent socials__list">
+                <li class="team__link-indent  socials__list">
                   <a href="" class="socials__link">
                     <svg width="20" height="20">
                       <use href="./images/symbol-defs.svg#icon-facebook"></use>
                     </svg>
                   </a>
                 </li>
-                <li class="team__link--indent socials__list">
+                <li class="team__link-indent  socials__list">
                   <a href="" class="socials__link">
                     <svg width="20" height="20">
                       <use href="./images/symbol-defs.svg#icon-linkedin"></use>
@@ -192,14 +201,14 @@
               <h3 class="team__name">Ольга Рєпіна</h3>
               <p class="team__vocation">Frontend Developer</p>
               <ul class="socials">
-                <li class="team__link--indent socials__list">
+                <li class="team__link-indent  socials__list">
                   <a href="" class="socials__link">
                     <svg width="20" height="20">
                       <use href="./images/symbol-defs.svg#icon-instagram"></use>
                     </svg>
                   </a>
                 </li>
-                <li class="team__link--indent socials__list">
+                <li class="team__link-indent  socials__list">
                   <a href="" class="socials__link">
                     <svg width="20" height="20">
                       <use href="./images/symbol-defs.svg#icon-twitter"></use>
@@ -207,14 +216,14 @@
                   </a>
                 </li>
                 <li class="socials__list">
-                  <a href="" class="team__link--indent socials__link">
+                  <a href="" class="team__link-indent  socials__link">
                     <svg width="20" height="20">
                       <use href="./images/symbol-defs.svg#icon-facebook"></use>
                     </svg>
                   </a>
                 </li>
                 <li class="socials__list">
-                  <a href="" class="team__link--indent socials__link">
+                  <a href="" class="team__link-indent  socials__link">
                     <svg width="20" height="20">
                       <use href="./images/symbol-defs.svg#icon-linkedin"></use>
                     </svg>
@@ -233,28 +242,28 @@
               <p class="team__vocation">Marketing</p>
               <ul class="socials">
                 <li class="socials__list">
-                  <a href="" class="team__link--indent socials__link">
+                  <a href="" class="team__link-indent  socials__link">
                     <svg width="20" height="20">
                       <use href="./images/symbol-defs.svg#icon-instagram"></use>
                     </svg>
                   </a>
                 </li>
                 <li class="socials__list">
-                  <a href="" class="team__link--indent socials__link">
+                  <a href="" class="team__link-indent  socials__link">
                     <svg width="20" height="20">
                       <use href="./images/symbol-defs.svg#icon-twitter"></use>
                     </svg>
                   </a>
                 </li>
                 <li class="socials__list">
-                  <a href="" class="team__link--indent socials__link">
+                  <a href="" class="team__link-indent  socials__link">
                     <svg width="20" height="20">
                       <use href="./images/symbol-defs.svg#icon-facebook"></use>
                     </svg>
                   </a>
                 </li>
                 <li class="socials__list">
-                  <a href="" class="team__link--indent socials__link">
+                  <a href="" class="team__link-indent  socials__link">
                     <svg width="20" height="20">
                       <use href="./images/symbol-defs.svg#icon-linkedin"></use>
                     </svg>
@@ -273,28 +282,28 @@
               <p class="team__vocation">UI Designer</p>
               <ul class="socials">
                 <li class="socials__list">
-                  <a href="" class="team__link--indent socials__link">
+                  <a href="" class="team__link-indent  socials__link">
                     <svg width="20" height="20">
                       <use href="./images/symbol-defs.svg#icon-instagram"></use>
                     </svg>
                   </a>
                 </li>
                 <li class="socials__list">
-                  <a href="" class="team__link--indent socials__link">
+                  <a href="" class="team__link-indent  socials__link">
                     <svg width="20" height="20">
                       <use href="./images/symbol-defs.svg#icon-twitter"></use>
                     </svg>
                   </a>
                 </li>
                 <li class="socials__list">
-                  <a href="" class="team__link--indent socials__link">
+                  <a href="" class="team__link-indent  socials__link">
                     <svg class="" width="20" height="20">
                       <use href="./images/symbol-defs.svg#icon-facebook"></use>
                     </svg>
                   </a>
                 </li>
                 <li class="socials__list">
-                  <a href="" class="team__link--indent socials__link">
+                  <a href="" class="team__link-indent  socials__link">
                     <svg width="20" height="20">
                       <use href="./images/symbol-defs.svg#icon-linkedin"></use>
                     </svg>
@@ -495,10 +504,10 @@
             <label for="checkbox" class="checkbox-label">
               <input class="modal-checkbox" type="checkbox" id="checkbox" />
               <span class="feedback-icon"></span>
-            </label>
+            
             <span class="feedback-rules"
               >Погоджуюся з розсилкою та приймаю</span
-            >
+            ></label>
             <a class="link-conditions" href="">Умови договору</a>
           </div>
           <button class="btn-modal" type="submit">Відправити</button>
